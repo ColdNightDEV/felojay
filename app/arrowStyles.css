@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.prev-arrow {
+    @apply text-black p-2 bg-gray-500 w-full
+}
+
+.next-arrow {
+    @apply text-black p-2 bg-gray-500 w-full
+}
+
+/* In an external CSS file or in your component using Tailwind CSS */
+.dot {
+    width: 100px;
+    height: 100px;
+    background-color: #000;
+    border-radius: 100%;
+    margin: 0 5px;
+}
